@@ -101,7 +101,6 @@ a:focus {
 }
 
 .hero_area .hero_bg_box {
-  background-color: #215983;
   position: absolute;
   top: 0;
   left: 0;
@@ -149,14 +148,14 @@ a:focus {
 }
 
 .navbar-brand {
-  color: #1aacdf;
+  color: #ffffff;
   font-weight: bold;
   font-size: 24px;
   text-transform: uppercase;
 }
 
 .navbar-brand span {
-  color: #1aacdf;
+  color: #ffffff;
 }
 
 .navbar-brand:hover {
