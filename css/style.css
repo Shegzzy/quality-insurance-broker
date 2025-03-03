@@ -877,4 +877,32 @@ a:focus {
 }
 
 
+.card-img-top{
+  border-radius: 10px;
+  padding: 20px;
+}
+.card{
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.card p, h6 {
+  color: rgb(0, 0, 0);
+}
+.card-body{
+  padding: 25px;
+  margin-top: 15px;
+}
+.btn-primary{
+  border-radius: 5px;
+  width: 120px;
+}
+.btn-primary:hover{
+  background-color: black;
+  border: none;
+}
+h3,h5{
+  color: rgb(0, 0, 0);
+}
+
 /*# sourceMappingURL=style.css.map */
