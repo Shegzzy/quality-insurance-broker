@@ -84,7 +84,7 @@
                 <a class="nav-link" href="#">Contact Us</a>
               </li>
               <li class="nav-item">
-                  <a class="btn btn-outline-primary" href="#">Login</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Login</button>
               </li>
             </ul>
           </div>
@@ -94,14 +94,51 @@
     <!-- end header section -->
   </div>
 
+   <!-- Modal -->
+   <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login to Access Your Data</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="exampleCheck1">Don't have an Account yet?</label>
+                </div>
+                <div class="form-group col-md-2">
+                  <a href="#">Sign Up</a>
+                </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- contact section -->
 
   <section class="contact_section ">
     <div class="container text-center py-5">
       <h1 class="text-center">Popular Motor Insurance</h1>
-      <div class="row row-cols-1 row-cols-md-3 g-3 py-5 px-10">
-
-          <div class="col">
+      <div class="row">
+          <div class="col col-md-4 mt-5">
               <div class="card">
                   <img src="images/car.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -113,8 +150,7 @@
                   </div>
               </div>
           </div>
-
-          <div class="col">
+          <div class="col col-md-4 mt-5">
               <div class="card">
                   <img src="images/delivery-truck.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -127,7 +163,7 @@
               </div>
           </div>
 
-          <div class="col">
+          <div class="col col-md-4 mt-5">
               <div class="card">
                   <img src="images/truck.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -140,7 +176,7 @@
               </div>
           </div>
 
-          <div class="col">
+          <div class="col col-md-4 mt-5">
               <div class="card">
                   <img src="images/tricycle.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -153,7 +189,7 @@
               </div>
           </div>
 
-          <div class="col">
+          <div class="col col-md-4 mt-5">
               <div class="card">
                   <img src="images/transport.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -166,7 +202,7 @@
               </div>
           </div>
 
-          <div class="col">
+          <div class="col col-md-4 mt-5">
               <div class="card">
                   <img src="images/transport.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -179,7 +215,7 @@
               </div>
           </div>
 
-          <div class="col">
+          <div class="col col-md-4 mt-5">
               <div class="card">
                   <img src="images/crane-truck.png" class="card-img-top" alt="...">
                   <div class="card-body">
